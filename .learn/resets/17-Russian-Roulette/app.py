@@ -9,11 +9,9 @@ def spin_chamber():
 #  DON'T CHANGE THE CODE ABOVE
 def fire_gun():
 	# YOUR CODE HERE
-	aleatorio=spin_chamber()
-	for i in range(aleatorio):
-		if(bullet_position == i):
-			return ('You are dead!')
-		else:
-			return('Keep playing!')
-	
+	return None
+
+
+
+
 print(fire_gun())
